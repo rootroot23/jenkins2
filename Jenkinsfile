@@ -3,17 +3,17 @@ pipeline {
     stages {
         stage('integration'){
             steps{
-                sh 'touch mia'
+                sh 'touch m7ia'
             }
         }
         stage('Teste'){
             steps{
-                sh 'touch ol.log'
+                sh 'touch ol8.log'
             }
         }
         stage('production'){
             steps{
-                sh 'mkdir ll'
+                sh 'mkdir l2l'
             }
         }
     }
