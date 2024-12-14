@@ -3,17 +3,17 @@ pipeline {
     stages {
         stage('buld'){
             steps{
-                sh 'touch malibaa'
+                sh 'touch malia'
             }
         }
         stage('builde'){
             steps{
-                sh 'touch ok.csv'
+                sh 'touch ok.log'
             }
         }
         stage('conclusion'){
             steps{
-                sh 'mkdir -p /tmp/po/lolo'
+                sh 'mkdir -p /tmpp/po2/l1olo'
             }
         }
     }
