@@ -1,19 +1,19 @@
 pipeline {
     agent any
     stages {
-        stage('integration'){
+        stage('integration'){ //c'est la partir integration
             steps{
-                sh 'touch m7ia'
+                sh 'touch integrationt'
             }
         }
-        stage('Teste'){
+        stage('Teste'){ // je fais le teste
             steps{
-                sh 'touch ol8.log'
+                sh 'touch fichierloge.log'
             }
         }
-        stage('production'){
+        stage('production'){ // je fais la production
             steps{
-                sh 'mkdir l2l'
+                sh 'mkdir prod'
             }
         }
     }
