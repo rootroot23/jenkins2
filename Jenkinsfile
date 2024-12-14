@@ -1,17 +1,17 @@
 pipeline {
     agent any
     stages {
-        stage('buld'){
+        stage('integration'){
             steps{
                 sh 'touch mia'
             }
         }
-        stage('builde'){
+        stage('Teste'){
             steps{
                 sh 'touch ol.log'
             }
         }
-        stage('conclusion'){
+        stage('production'){
             steps{
                 sh 'mkdir ll'
             }
