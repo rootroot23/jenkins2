@@ -8,12 +8,12 @@ pipeline {
         }
         stage('Teste'){ // je fais le teste
             steps{
-                sh 'touch fichierloge.log'
+                sh 'touch fichierlooge.log'
             }
         }
-        stage('production'){ // je fais la production
+        stage('production'){ // je fais la prooduction
             steps{
-                sh 'mkdir prod'
+                sh 'mkdir pprod'
             }
         }
     }
