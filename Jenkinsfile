@@ -3,15 +3,15 @@ pipeline {
     stages {
         stage('integration'){ //c'est la partir integration
             steps{
-                sh 'touch integrationt'
+                sh 'touch integra4tiont'
             }
         }
         stage('Teste'){ // je fais le teste
             steps{
-                sh 'touch fichierlooge.log'
+                sh 'touch fichilooge.log'
             }
         }
-        stage('production'){ // je fais la prooduction
+        stage('production'){ // je fais la pr1ooduction
             steps{
                 sh 'mkdir pprod'
             }
